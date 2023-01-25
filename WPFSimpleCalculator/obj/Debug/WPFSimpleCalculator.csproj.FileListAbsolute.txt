@@ -1,0 +1,15 @@
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\bin\Debug\WPFSimpleCalculator.exe.config
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\bin\Debug\WPFSimpleCalculator.exe
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\bin\Debug\WPFSimpleCalculator.pdb
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator.csproj.AssemblyReference.cache
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\App.g.cs
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator_MarkupCompile.cache
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator_MarkupCompile.lref
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\MainWindow.baml
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator.g.resources
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator.Properties.Resources.resources
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator.csproj.GenerateResource.cache
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator.exe
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator.pdb
