@@ -4,6 +4,26 @@
              xmlns:local="clr-namespace:WPFSimpleCalculator"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <SolidColorBrush x:Key="numbersColor"
+                         Color="#444"/>
+        <SolidColorBrush x:Key="operatorsColor"
+                         Color="Orange" />
+
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+
+        <Style TargetType="Button" x:Key="operationsButtonStyle">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Foreground" Value="Black" />
+        </Style>
+
+        <Style TargetType="Button" x:Key="numbersButtonStyle" BasedOn="{StaticResource operationsButtonStyle}">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="{StaticResource numbersColor}" />
+        </Style>
     </Application.Resources>
 </Application>

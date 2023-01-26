@@ -13,3 +13,4 @@ C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debu
 C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator.csproj.CoreCompileInputs.cache
 C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator.exe
 C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\WPFSimpleCalculator.pdb
+C:\Users\emusyoka001\Documents\GitHub\WPFCalculator\WPFSimpleCalculator\obj\Debug\App.baml

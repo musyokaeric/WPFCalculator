@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFSimpleCalculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="525" Width="350">
+        Title="Simple Calculator" Height="525" Width="350">
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -27,24 +27,62 @@
                VerticalAlignment="Bottom"
                FontSize="60"/>
 
-        <Button x:Name="acButton" Margin="5" Grid.Row="1" Content="AC" Click="acButton_Click" />
-        <Button x:Name="negativeButton" Margin="5" Grid.Row="1" Grid.Column="1" Content="+/-" Click="negativeButton_Click" />
-        <Button x:Name="percentageButton" Margin="5" Grid.Row="1" Grid.Column="2" Content="%" Click="percentageButton_Click" />
-        <Button x:Name="divisionButton" Margin="5" Grid.Row="1" Grid.Column="3" Content="/" Click="operationButton_Click" />
-        <Button x:Name="sevenButton" Margin="5" Grid.Row="2" Content="7" Click="numberButton_Click" />
-        <Button x:Name="eightButton" Margin="5" Grid.Row="2" Grid.Column="1" Content="8" Click="numberButton_Click" />
-        <Button x:Name="nineButton" Margin="5" Grid.Row="2" Grid.Column="2" Content="9" Click="numberButton_Click" />
-        <Button x:Name="multiplyButton" Margin="5" Grid.Row="2" Grid.Column="3" Content="*" Click="operationButton_Click" />
-        <Button x:Name="fourButton" Margin="5" Grid.Row="3" Content="4" Click="numberButton_Click" />
-        <Button x:Name="fiveButton" Margin="5" Grid.Row="3" Grid.Column="1" Content="5" Click="numberButton_Click" />
-        <Button x:Name="sixButton" Margin="5" Grid.Row="3" Grid.Column="2" Content="6" Click="numberButton_Click" />
-        <Button x:Name="minusButton" Margin="5" Grid.Row="3" Grid.Column="3" Content="-" Click="operationButton_Click" />
-        <Button x:Name="oneButton" Margin="5" Grid.Row="4" Content="1" Click="numberButton_Click" />
-        <Button x:Name="twoButton" Margin="5" Grid.Row="4" Grid.Column="1" Content="2" Click="numberButton_Click" />
-        <Button x:Name="threeButton" Margin="5" Grid.Row="4" Grid.Column="2" Content="3" Click="numberButton_Click" />
-        <Button x:Name="plusButton" Margin="5" Grid.Row="4" Grid.Column="3" Content="+" Click="operationButton_Click" />
-        <Button x:Name="zeroButton" Margin="5" Grid.Row="5" Grid.ColumnSpan="2" Content="0" Click="numberButton_Click" />
-        <Button x:Name="pointButton" Margin="5" Grid.Row="5" Grid.Column="2" Content="." Click="pointButton_Click" />
-        <Button x:Name="equalButton" Margin="5" Grid.Row="5" Grid.Column="3" Content="=" Click="equalButton_Click" />
+        <Button x:Name="acButton" Grid.Row="1" 
+                Content="AC" Click="acButton_Click"
+                Style="{StaticResource operationsButtonStyle}"/>
+        <Button x:Name="negativeButton" Grid.Row="1" Grid.Column="1"
+                Content="+/-" Click="negativeButton_Click" 
+                Style="{StaticResource operationsButtonStyle}"/>
+        <Button x:Name="percentageButton" Grid.Row="1" Grid.Column="2"
+                Content="%" Click="percentageButton_Click"
+                Style="{StaticResource operationsButtonStyle}"/>
+        <Button x:Name="divisionButton" Grid.Row="1" Grid.Column="3" 
+                Content="/" Click="operationButton_Click"
+                Background="{StaticResource operatorsColor}" />
+        <Button x:Name="sevenButton" Grid.Row="2"
+                Content="7" Click="numberButton_Click" 
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="eightButton" Grid.Row="2" Grid.Column="1" 
+                Content="8" Click="numberButton_Click"
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="nineButton" Grid.Row="2" Grid.Column="2" 
+                Content="9" Click="numberButton_Click"
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="multiplyButton" Grid.Row="2" Grid.Column="3" 
+                Content="*" Click="operationButton_Click"
+                Background="{StaticResource operatorsColor}" />
+        <Button x:Name="fourButton" Grid.Row="3" 
+                Content="4" Click="numberButton_Click"
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="fiveButton" Grid.Row="3" Grid.Column="1" 
+                Content="5" Click="numberButton_Click"
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="sixButton" Grid.Row="3" Grid.Column="2" 
+                Content="6" Click="numberButton_Click"
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="minusButton" Grid.Row="3" Grid.Column="3" 
+                Content="-" Click="operationButton_Click" 
+                Background="{StaticResource operatorsColor}" />
+        <Button x:Name="oneButton" Grid.Row="4" 
+                Content="1" Click="numberButton_Click"
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="twoButton" Grid.Row="4" Grid.Column="1" 
+                Content="2" Click="numberButton_Click"
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="threeButton" Grid.Row="4" Grid.Column="2" 
+                Content="3" Click="numberButton_Click"
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="plusButton" Grid.Row="4" Grid.Column="3"
+                Content="+" Click="operationButton_Click"
+                Background="{StaticResource operatorsColor}" />
+        <Button x:Name="zeroButton" Grid.Row="5" Grid.ColumnSpan="2"
+                Content="0" Click="numberButton_Click"
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="pointButton" Grid.Row="5" Grid.Column="2" 
+                Content="." Click="pointButton_Click"
+                Style="{StaticResource numbersButtonStyle}" />
+        <Button x:Name="equalButton" Grid.Row="5" Grid.Column="3" 
+                Content="=" Click="equalButton_Click" 
+                Background="{StaticResource operatorsColor}" />
     </Grid>
 </Window>
