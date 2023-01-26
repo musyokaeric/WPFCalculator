@@ -22,29 +22,29 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Label x:Name="resultLabel" Grid.ColumnSpan="4" Content="1,234"
+        <Label x:Name="resultLabel" Grid.ColumnSpan="4"
                HorizontalAlignment="Right"
                VerticalAlignment="Bottom"
                FontSize="60"/>
 
-        <Button Margin="5" Grid.Row="1" Content="AC" />
-        <Button Margin="5" Grid.Row="1" Grid.Column="1" Content="+/-" />
-        <Button Margin="5" Grid.Row="1" Grid.Column="2" Content="%" />
-        <Button Margin="5" Grid.Row="1" Grid.Column="3" Content="/" />
-        <Button Margin="5" Grid.Row="2" Content="7" />
-        <Button Margin="5" Grid.Row="2" Grid.Column="1" Content="8" />
-        <Button Margin="5" Grid.Row="2" Grid.Column="2" Content="9" />
-        <Button Margin="5" Grid.Row="2" Grid.Column="3" Content="*" />
-        <Button Margin="5" Grid.Row="3" Content="4" />
-        <Button Margin="5" Grid.Row="3" Grid.Column="1" Content="5" />
-        <Button Margin="5" Grid.Row="3" Grid.Column="2" Content="6" />
-        <Button Margin="5" Grid.Row="3" Grid.Column="3" Content="-" />
-        <Button Margin="5" Grid.Row="4" Content="1" />
-        <Button Margin="5" Grid.Row="4" Grid.Column="1" Content="2" />
-        <Button Margin="5" Grid.Row="4" Grid.Column="2" Content="3" />
-        <Button Margin="5" Grid.Row="4" Grid.Column="3" Content="+" />
-        <Button Margin="5" Grid.Row="5" Grid.ColumnSpan="2" Content="0" />
-        <Button Margin="5" Grid.Row="5" Grid.Column="2" Content="." />
-        <Button Margin="5" Grid.Row="5" Grid.Column="3" Content="=" />
+        <Button x:Name="acButton" Margin="5" Grid.Row="1" Content="AC" Click="acButton_Click" />
+        <Button x:Name="negativeButton" Margin="5" Grid.Row="1" Grid.Column="1" Content="+/-" Click="negativeButton_Click" />
+        <Button x:Name="percentageButton" Margin="5" Grid.Row="1" Grid.Column="2" Content="%" Click="percentageButton_Click" />
+        <Button x:Name="divisionButton" Margin="5" Grid.Row="1" Grid.Column="3" Content="/" Click="operationButton_Click" />
+        <Button x:Name="sevenButton" Margin="5" Grid.Row="2" Content="7" Click="numberButton_Click" />
+        <Button x:Name="eightButton" Margin="5" Grid.Row="2" Grid.Column="1" Content="8" Click="numberButton_Click" />
+        <Button x:Name="nineButton" Margin="5" Grid.Row="2" Grid.Column="2" Content="9" Click="numberButton_Click" />
+        <Button x:Name="multiplyButton" Margin="5" Grid.Row="2" Grid.Column="3" Content="*" Click="operationButton_Click" />
+        <Button x:Name="fourButton" Margin="5" Grid.Row="3" Content="4" Click="numberButton_Click" />
+        <Button x:Name="fiveButton" Margin="5" Grid.Row="3" Grid.Column="1" Content="5" Click="numberButton_Click" />
+        <Button x:Name="sixButton" Margin="5" Grid.Row="3" Grid.Column="2" Content="6" Click="numberButton_Click" />
+        <Button x:Name="minusButton" Margin="5" Grid.Row="3" Grid.Column="3" Content="-" Click="operationButton_Click" />
+        <Button x:Name="oneButton" Margin="5" Grid.Row="4" Content="1" Click="numberButton_Click" />
+        <Button x:Name="twoButton" Margin="5" Grid.Row="4" Grid.Column="1" Content="2" Click="numberButton_Click" />
+        <Button x:Name="threeButton" Margin="5" Grid.Row="4" Grid.Column="2" Content="3" Click="numberButton_Click" />
+        <Button x:Name="plusButton" Margin="5" Grid.Row="4" Grid.Column="3" Content="+" Click="operationButton_Click" />
+        <Button x:Name="zeroButton" Margin="5" Grid.Row="5" Grid.ColumnSpan="2" Content="0" Click="numberButton_Click" />
+        <Button x:Name="pointButton" Margin="5" Grid.Row="5" Grid.Column="2" Content="." Click="pointButton_Click" />
+        <Button x:Name="equalButton" Margin="5" Grid.Row="5" Grid.Column="3" Content="=" Click="equalButton_Click" />
     </Grid>
 </Window>
